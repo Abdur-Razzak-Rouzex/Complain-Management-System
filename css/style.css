@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,600&family=Sofia&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+    --Sofia: "Sofia", cursive;
+    --Poppins: "Poppins", sans-serif;
+    --Lobster: "Lobster", cursive;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+/**************************************************************    NavBar Starts   ***********************************************************/
+nav {
+    background: #343a40;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: blue;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: blue;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/***********************************      media nav ******************************/
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    label.logo {
+        color: blue;
+        font-size: 20px;
+        line-height: 50px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
+    ul {
+        position: fixed;
+        width: 50%;
+        background: #343a40;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 10px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/**************************************************************    Login Form Starts   ***********************************************************/
+
+.forms-container {
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 15vmin;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome {
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 1px 1px blue;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 2.2em;
+    color: lightblue;
+    padding: 10px;
+}
+
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 11px;
+}
+
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #acacac;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    font-family: var(--Poppins);
+}
+
+textarea {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 45px;
+    padding: 20px 20px;
+    font-family: var(--Poppins);
+    border: none;
+    outline: none;
+}
+
+/*#complain{*/
+/*    white-space: pre-wrap;*/
+/*}*/
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 2s;
+    margin-left: 35vmin;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.photo {
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    color: blue;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 2s;
+    margin-left: 35vmin;
+}
+
+.department {
+    margin-top:3vmin;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: 8vmin;
+}
+
+.department:hover {
+    background-color: whitesmoke;
+}
+
+.social-text {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 45px;
+    width: 45px;
+    border: 3px solid #333;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.social-icon:hover {
+    color: #4481eb;
+    border-color: yellowgreen;
+}
+
+.sign-in-form small {
+    margin-top: 3vmin;
+    margin-left: 30vmin;
+}

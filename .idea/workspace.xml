@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d05d7fdb-1e83-4e71-b2dc-bc1a815f2052" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1nBKcuSu9ySiS9kgy3ukUcASNea" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Rouzex\Complain System\Login and Registration form" />
+      <recent name="C:\Rouzex\Complain System" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="reg and login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Complain System/Login and Registration form/reg and login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.reg and login.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d05d7fdb-1e83-4e71-b2dc-bc1a815f2052" name="Default Changelist" comment="" />
+      <created>1610858126550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610858126550</updated>
+      <workItem from="1610858127626" duration="14669000" />
+      <workItem from="1610874681256" duration="10433000" />
+      <workItem from="1610893062129" duration="37149000" />
+      <workItem from="1610969588453" duration="8132000" />
+      <workItem from="1610978856119" duration="629000" />
+      <workItem from="1611026389979" duration="7293000" />
+      <workItem from="1611034096733" duration="4157000" />
+      <workItem from="1611038318375" duration="14095000" />
+      <workItem from="1611055591616" duration="2993000" />
+      <workItem from="1611115123385" duration="20000" />
+      <workItem from="1611126341073" duration="686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
